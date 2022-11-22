@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <header class="container-fluid">
+        <div class="row justify-content-around align-items-center">
+          <div class="col-xl-3 col-md-3 col-sm-12 mt-2 mb-2"><img src="../assets/img/clinica/logo-clinica.jpg" class="logoCli" alt="logo-clinica"></div>
+          <div class="col-xl-6 col-md-6 col-sm-12"><h1 class="nombre-pag">Clínica Los Andes</h1></div>
+          <div class="col-xl-3 col-md-3 col-sm-12 redes-header">
+              <a href="https://www.instagram.com/"><img src="../assets/img/icons/Instagram-Icon.png" alt="Instagram"></a>
+              <a href="https://www.facebook.com/"><img src="../assets/img/icons/f.png" alt="Facebook"></a>
+              <a href="https://twitter.com/"><img src="../assets/img/icons/twitter.png" alt=""></a>
+          </div>
+        </div>
+      </header>
+    <nav class="navbar justify-content-end align-items-center">
+        <a href="../index.html">INICIO</a>
+        <a href="./turnos.html">TURNOS</a>
+        <a href="./teleconsulta.html">TELECONSULTA</a>
+        <a href="./afiliarme.html">AFILIARME</a>
+        <a href="./info-salud.html">INFO SALUD</a>
+    </nav>
+    <main class="container mt-3 mb-5">
+        <h2>Gestión de Turnos Online</h2>
+        <p class="lead">Para solicitar su turno deberá completar el formulario a continuación.</p>
+        <p class="lead">En caso de gestionar un turno para teleconsulta, usted recibirá en su correo electrónico un código de reunión el cuál le permitirá ingresar a la consulta con el especialista asignado.</p>
+        <form class="formulario align-items-center" action="" method="get" enctype="application/x-www-form-urlencoded" >
+            <input class="form-control" type="text" name="name" id="name" placeholder="Nombre y Apellido" required>
+            <input class="form-control" type="text" name="numero" id="numero" placeholder="Número de teléfono" required>
+            <input class="form-control" type="email" name="mail" id="mail" placeholder="Mail" required>
+            <input class="form-control" type="text" name="afiliado" id="adiliado" placeholder="Número de Afiliado" required>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" value="teleconsulta" >
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Teleconsulta
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" value="presencial" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Presencial
+                </label>
+              </div>
+            <label class="form-group" for="servicio">Servicio</label>
+            <select class="form-control" name="servicio" id="servicio" required>
+                <option value="cons-cardio">Consultorio Cardiología</option>
+                <option value="cons-endocrino">Consultorio Endocrinología</option>
+                <option value="cons-clinica">Consultorio Clínica</option>
+                <option value="laboratorio">Laboratorio</option>
+                <option value="radiologia">Radiología</option>
+                <option value="tomografía">Tomografía</option>
+                <option value="Ecografía">Ecografía</option>
+            </select>
+            <input class="form-control" type="date" name="dia" id="dia" required>
+            <select class="form-control" name="hora" id="hora" required>
+                <option value="8-30">8:30</option>
+                <option value="9">9:00</option>
+                <option value="9-30">9:30</option>
+                <option value="10">10:00</option>
+                <option value="10-30">10:30</option>
+                <option value="11">11:00</option>
+                <option value="11-30">11:30</option>
+                <option value="12">12:00</option>
+            <input class="form-control btn" type="submit" value="SOLICITAR TURNO">
+        </form>
+    </main>
+    <aside></aside>
+    <footer class="row">
+        <div class="lead col-xl-3 col-md-4 col-sm-12">
+             <h3>Dirección: Avenida Malargue 1521, Bariloche - Río Negro</h3>
+        </div>
+        <div class="lead col-xl-3 col-md-4 col-sm-12">
+             <h3>Atención telefónica las 24 hs: +542945378419</h3>
+         </div>
+         <div class="lead col-xl-3 col-md-4 col-sm-12">
+             <h3>Redes Sociales</h3>
+             <a href="https://www.instagram.com/"><img src="../assets/img/icons/Instagram-Icon.png" alt="Instagram"></a>
+             <a href="https://www.facebook.com/"><img src="../assets/img/icons/f.png" alt="Facebook"></a>
+             <a href="https://twitter.com/"><img src="../assets/img/icons/twitter.png" alt=""></a>
+         </div>
+     </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>

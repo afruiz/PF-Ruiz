@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(../img/fondo.jpg);
+}
+.logoCli{
+    width: 180px;
+    border-radius: 50%;
+    
+}
+.redes-header img{
+    width: 24px;
+}
+header h1{
+    color: whitesmoke;
+    font-size: 48px;
+    font-weight: 800;
+}
+.navbar{
+    background-color: #59759C;
+}
+.navbar a{
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: solid 2px black;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+}
+.servicios img{
+    width: 240px;
+    border: 3px solid black;
+    border-radius: 10px;
+    transition: 0.8s;
+}
+.servicios img:hover{
+    transform: scale(1.2);
+}
+
+.formulario{
+    width: 280px;
+    border: solid 2px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.btn{
+    width: 100%;
+    background-color: teal;
+    color: white;
+    font-size: 20px;
+    margin: auto;
+    transition: 0.4s;
+}
+
+.btn:hover{
+    background-color: darkblue;
+    color: whitesmoke;
+    transform:scale(1.05)
+}
+
+footer{
+    height: 240px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer div{
+    width: 300px;
+    height: 80px;
+    color: whitesmoke;
+    font-size: 14px;
+}
+
+footer div img{
+    width: 30px;
+    height: 30px;
+}
