@@ -53,7 +53,7 @@ header h1{
 
 .btn{
     width: 100%;
-    background-color: teal;
+    background-color: rgb(117, 164, 194);
     color: white;
     font-size: 20px;
     margin: auto;
@@ -64,6 +64,71 @@ header h1{
     background-color: darkblue;
     color: whitesmoke;
     transform:scale(1.05)
+}
+
+.promo-afi{
+    width: 100%;
+}
+
+.joven-img{
+    width: 200px;
+    height: 200px;
+    border: solid 2px;
+    transition: 0.8s;
+}
+
+.personal-img{
+    width: 200px;
+    height: 200px;
+    border: solid 2px;
+    transition: 0.8s;
+} 
+
+.familiar-img{
+    width: 200px;
+    height: 200px;
+    border: solid 2px;
+    transition: 0.8s;
+}
+
+.joven-img:hover{
+    transform:skewX(20deg);
+}
+
+.personal-img:hover{
+    transform:skewX(20deg);
+} 
+
+.familiar-img:hover{
+    transform:skewX(20deg);
+}
+
+.plan1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.plan2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.plan3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+h4{
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 footer{
