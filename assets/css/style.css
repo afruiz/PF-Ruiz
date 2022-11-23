@@ -131,6 +131,18 @@ h4{
     margin-right: 16px;
 }
 
+.infoimg img{
+    width: 300px;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.8s;
+}
+
+.infoimg img:hover{
+    transform: scale(1.2);
+}
+
 footer{
     height: 240px;
     background-color: grey;
