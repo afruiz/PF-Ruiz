@@ -1,0 +1,14 @@
+.btn{
+    width: 100%;
+    background-color: rgb(117, 164, 194);
+    color: white;
+    font-size: 20px;
+    margin: auto;
+    transition: 0.4s;
+    &:hover{
+        background-color: darkblue;
+        color: whitesmoke;
+        transform:scale(1.05)
+    }
+}
+

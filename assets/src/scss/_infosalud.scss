@@ -1,0 +1,10 @@
+.infoimg img{
+    width: 300px;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.8s;
+    &:hover{
+        transform: scale(1.2);
+    }
+}

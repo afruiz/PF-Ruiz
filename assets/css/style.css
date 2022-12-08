@@ -1,163 +1,144 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-header{
-    background-image: url(../img/fondo.jpg);
-}
-.logoCli{
-    width: 180px;
-    border-radius: 50%;
-    
-}
-.redes-header img{
-    width: 24px;
-}
-header h1{
-    color: whitesmoke;
-    font-size: 48px;
-    font-weight: 800;
-}
-.navbar{
-    background-color: #59759C;
-}
-.navbar a{
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
-    border: solid 2px black;
-    background-color: whitesmoke;
-    color: black;
-    font-size: 18px;
-    font-weight: 700;
-}
-.servicios img{
-    width: 240px;
-    border: 3px solid black;
-    border-radius: 10px;
-    transition: 0.8s;
-}
-.servicios img:hover{
-    transform: scale(1.2);
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.formulario{
-    width: 280px;
-    border: solid 2px;
-    border-radius: 10px;
-    padding: 10px;
-    margin: auto;
-    margin-bottom: 10px;
+.navbar {
+  background-color: #59759C;
+}
+.navbar a {
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: solid 2px black;
+  background-color: whitesmoke;
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
 }
 
-.btn{
-    width: 100%;
-    background-color: rgb(117, 164, 194);
-    color: white;
-    font-size: 20px;
-    margin: auto;
-    transition: 0.4s;
+header {
+  background-image: url(../img/fondo.jpg);
+}
+header h1 {
+  color: whitesmoke;
+  font-size: 48px;
+  font-weight: 800;
+}
+header .logoCli {
+  width: 180px;
+  border-radius: 50%;
+}
+header .redes-header img {
+  width: 24px;
 }
 
-.btn:hover{
-    background-color: darkblue;
-    color: whitesmoke;
-    transform:scale(1.05)
+.servicios img {
+  width: 240px;
+  border: 3px solid black;
+  border-radius: 10px;
+  transition: 0.8s;
+}
+.servicios img:hover {
+  transform: scale(1.2);
 }
 
-.promo-afi{
-    width: 100%;
+.formulario {
+  width: 280px;
+  border: solid 2px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 10px;
 }
 
-.joven-img{
-    width: 200px;
-    height: 200px;
-    border: solid 2px;
-    transition: 0.8s;
+.btn {
+  width: 100%;
+  background-color: rgb(117, 164, 194);
+  color: white;
+  font-size: 20px;
+  margin: auto;
+  transition: 0.4s;
+}
+.btn:hover {
+  background-color: darkblue;
+  color: whitesmoke;
+  transform: scale(1.05);
 }
 
-.personal-img{
-    width: 200px;
-    height: 200px;
-    border: solid 2px;
-    transition: 0.8s;
-} 
-
-.familiar-img{
-    width: 200px;
-    height: 200px;
-    border: solid 2px;
-    transition: 0.8s;
+.joven-img {
+  width: 200px;
+  height: 200px;
+  border: solid 2px;
+  transition: 0.8s;
+}
+.joven-img:hover {
+  transform: skewX(20deg);
 }
 
-.joven-img:hover{
-    transform:skewX(20deg);
+.personal-img {
+  width: 200px;
+  height: 200px;
+  border: solid 2px;
+  transition: 0.8s;
+}
+.personal-img:hover {
+  transform: skewX(20deg);
 }
 
-.personal-img:hover{
-    transform:skewX(20deg);
-} 
-
-.familiar-img:hover{
-    transform:skewX(20deg);
+.familiar-img {
+  width: 200px;
+  height: 200px;
+  border: solid 2px;
+  transition: 0.8s;
+}
+.familiar-img:hover {
+  transform: skewX(20deg);
 }
 
-.plan1{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin: 30px;
+.plan1, .plan2, .plan3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 30px;
 }
 
-.plan2{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin: 30px;
+h4 {
+  font-size: 24px;
+  font-weight: 800;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
-.plan3{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin: 30px;
+.promo-afi {
+  width: 100%;
 }
 
-h4{
-    font-size: 24px;
-    font-weight: 800;
-    margin-left: 16px;
-    margin-right: 16px;
+.infoimg img {
+  width: 300px;
+  border: solid 2px black;
+  border-radius: 10px;
+  margin: 20px;
+  transition: 0.8s;
+}
+.infoimg img:hover {
+  transform: scale(1.2);
 }
 
-.infoimg img{
-    width: 300px;
-    border: solid 2px black;
-    border-radius: 10px;
-    margin: 20px;
-    transition: 0.8s;
+footer {
+  height: 240px;
+  background-color: grey;
+  display: flex;
+  justify-content: space-evenly;
 }
-
-.infoimg img:hover{
-    transform: scale(1.2);
+footer div {
+  width: 300px;
+  height: 80px;
+  color: whitesmoke;
+  font-size: 14px;
 }
-
-footer{
-    height: 240px;
-    background-color: grey;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-footer div{
-    width: 300px;
-    height: 80px;
-    color: whitesmoke;
-    font-size: 14px;
-}
-
-footer div img{
-    width: 30px;
-    height: 30px;
-}
+footer div img {
+  width: 30px;
+  height: 30px;
+}/*# sourceMappingURL=style.css.map */

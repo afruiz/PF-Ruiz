@@ -1,0 +1,17 @@
+footer{
+    height: 240px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-evenly;
+    div{
+        width: 300px;
+        height: 80px;
+        color: whitesmoke;
+        font-size: 14px;
+        img{
+            width: 30px;
+            height: 30px;
+        }
+    }
+    
+}
