@@ -1,0 +1,9 @@
+@mixin planes-img {
+    width: 200px;
+    height: 200px;
+    border: solid 2px;
+    transition: 0.8s;
+    &:hover{
+        transform:skewX(20deg);
+    }
+}  

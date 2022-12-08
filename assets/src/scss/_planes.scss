@@ -1,34 +1,13 @@
 .joven-img{
-    width: 200px;
-    height: 200px;
-    border: solid 2px;
-    transition: 0.8s;
-    &:hover{
-        transform:skewX(20deg);
-    }
-    
+    @include planes-img;
 }
 
 .personal-img{
-    width: 200px;
-    height: 200px;
-    border: solid 2px;
-    transition: 0.8s;
-    &:hover{
-        transform:skewX(20deg);
-    }
-    
+    @include planes-img;
 } 
 
 .familiar-img{
-    width: 200px;
-    height: 200px;
-    border: solid 2px;
-    transition: 0.8s;
-    &:hover{
-        transform:skewX(20deg);
-    }
-    
+    @include planes-img;
 }
 
 .plan1 , .plan2 , .plan3{
